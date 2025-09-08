@@ -218,6 +218,7 @@ nav{
   color: var(--text-dark);
   font-weight: 800;
    margin-bottom: 0.5rem;
+    padding-right:1rem;
 }
 .hotel-images p{
   font-size: 1.3rem;
@@ -227,6 +228,7 @@ nav{
 .hotel-images p span{
   font-size: 1rem;
   color: var(--text-dark);
+     padding-right:1rem;
 }
 /* Hotel end */
 
@@ -675,6 +677,7 @@ footer{
  .content-steps{
   gap: 3rem;
  }
+
 
 
   }
