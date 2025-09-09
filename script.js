@@ -54,12 +54,10 @@ ScrollReveal().reveal(".trip-item",{
 
 
 
-const inspiration = document.querySelector(".insperation-section");//container
-const inspirationItems = Array.from(inspiration.children);
-
-
-inspirationItems.forEach((item) => {
-  const duplicateNode = item.cloneNode(true);
-  duplicateNode.setAttribute("copy", true);
-  inspiration.appendChild(duplicateNode);
+const inspiration=document.querySelector(".insperation-section");
+const inspirationItems=Array.from(inspiration.children);
+inspirationItems.forEach(item => {
+  const copyOfValue=item.cloneNode(true);
+  inspiration.appendChild(copyOfValue)
+});
 });
